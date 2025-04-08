@@ -7,7 +7,7 @@ fake = Faker()
 LOCATIONS = ["BuildingA_Floor1", "BuildingA_Floor2", "BuildingB_Floor1", "BuildingB_Floor2"]
 SENSOR_TYPES = ["TypeA", "TypeB", "TypeC"]
 
-def generate_sensor_data(num_records=1000, output_file="sensor_data.csv"):
+def generate_sensor_data(num_records=1000, output_file="input/sensor_data.csv"):
     """
     Generates a CSV with fields:
     sensor_id, timestamp, temperature, humidity, location, sensor_type
@@ -36,5 +36,5 @@ def generate_sensor_data(num_records=1000, output_file="sensor_data.csv"):
             })
 
 if __name__ == "__main__":
-    generate_sensor_data(num_records=1000, output_file="sensor_data.csv")
-    print("sensor_data.csv generated.")
+    generate_sensor_data(num_records=1000, output_file="input/sensor_data.csv")
+    print("input/sensor_data.csv generated.")
