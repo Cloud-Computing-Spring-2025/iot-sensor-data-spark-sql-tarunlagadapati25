@@ -36,7 +36,7 @@ This will save `sensor_data.csv` in your working input directory.
 ## File Structure
 
 ```
-iot-sensor-data-spark-sql-Scheruk1701/
+iot-sensor-data-spark-sql-tarunlagadapati25/
 ├── input/sensor_data.csv              # Simulated sensor readings
 ├── output/                            # CSV output files from each task
 ├── src/
